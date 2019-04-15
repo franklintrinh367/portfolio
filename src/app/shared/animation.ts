@@ -1,6 +1,6 @@
 import { trigger, style, state, transition, animate } from "@angular/animations";
 
-export const scale = () => {
+export function scale() {
     return trigger('scale', [
         state('true', style({
             transform : 'rotate(0) scale(0.7)'
