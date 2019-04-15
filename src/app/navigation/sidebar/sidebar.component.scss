@@ -1,0 +1,31 @@
+
+mat-drawer-container {
+    height: 100%;
+}
+
+mat-drawer {
+    background-color: #37474F;
+    padding: 10px;
+    height: 100%;
+}
+
+mat-drawer-content {
+    background-color: #37474F;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #E53935;
+    color: white;
+}

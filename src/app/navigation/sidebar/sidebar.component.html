@@ -1,0 +1,17 @@
+<mat-drawer-container>
+  <mat-drawer mode="side" opened class="mat-elevation-z8">
+    <div class="tile">
+      <button matTooltip="Home" mat-raised-button [routerLink]="['main']" routerLinkActive="active">
+        <mat-icon>home</mat-icon></button>
+      <button matTooltip="Resume" mat-raised-button [routerLink]="['resume']" routerLinkActive="active">
+        <mat-icon>library_books</mat-icon>
+      </button>
+      <button matTooltip="Contact" mat-raised-button [routerLink]="['contact']" routerLinkActive="active">
+        <mat-icon>phone</mat-icon></button>
+      <button matTooltip="Projects" mat-raised-button [routerLink]="['projects']" routerLinkActive="active">
+        <mat-icon>work</mat-icon>
+      </button>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content><ng-content></ng-content></mat-drawer-content>
+</mat-drawer-container>

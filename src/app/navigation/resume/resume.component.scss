@@ -1,0 +1,42 @@
+#body {
+    color: white;
+}
+
+mat-divider {
+    background-color: white;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+
+.right {
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+span {
+    font-weight: bold;
+}
+
+.padder {
+    width: 5px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}

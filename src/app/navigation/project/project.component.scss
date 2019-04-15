@@ -1,0 +1,30 @@
+#body {
+    color: white;
+}
+
+mat-divider {
+    background-color: white;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #00C853;
+}
+
+.padder {
+    width: 5px;
+}
+
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
